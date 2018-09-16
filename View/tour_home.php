@@ -3,18 +3,10 @@
 	 if( isset($_COOKIE['loginStatus']) != true )
 		{
 			 setcookie('loginStatus',"1",time()+1000,'/'); 
-		}
-		
+		}		
 		$last_loc="tour_home.php";
 		 setcookie('lastPage',$last_loc,time()+1000,'/'); 
-
-
-
-
-
 		$_SESSION['yesAdmin']='1';
-
-
 ?>
 
 <!DOCTYPE html>
